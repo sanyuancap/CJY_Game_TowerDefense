@@ -280,6 +280,22 @@
 		CE9592471891AB49006D3952 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9592461891AB49006D3952 /* libwebsockets.a */; };
 		CE95924D1891AB49006D3952 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE95924C1891AB49006D3952 /* AppDelegate.cpp */; };
 		CE9592501891AB49006D3952 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE95924F1891AB49006D3952 /* HelloWorldScene.cpp */; };
+		CE9596381891CF77006D3952 /* 8bitDungeonLevel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE95962B1891CF77006D3952 /* 8bitDungeonLevel.mp3 */; };
+		CE9596391891CF77006D3952 /* Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE95962C1891CF77006D3952 /* Bg.png */; };
+		CE95963A1891CF77006D3952 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = CE95962D1891CF77006D3952 /* bullet.png */; };
+		CE95963B1891CF77006D3952 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = CE95962E1891CF77006D3952 /* enemy.png */; };
+		CE95963C1891CF77006D3952 /* font_red_14.fnt in Resources */ = {isa = PBXBuildFile; fileRef = CE95962F1891CF77006D3952 /* font_red_14.fnt */; };
+		CE95963D1891CF77006D3952 /* font_red_14.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9596301891CF77006D3952 /* font_red_14.png */; };
+		CE95963E1891CF77006D3952 /* laser_shoot.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE9596311891CF77006D3952 /* laser_shoot.wav */; };
+		CE95963F1891CF77006D3952 /* life_lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE9596321891CF77006D3952 /* life_lose.wav */; };
+		CE9596401891CF77006D3952 /* open_spot.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9596331891CF77006D3952 /* open_spot.png */; };
+		CE9596411891CF77006D3952 /* tower_place.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE9596341891CF77006D3952 /* tower_place.wav */; };
+		CE9596421891CF77006D3952 /* tower.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9596351891CF77006D3952 /* tower.png */; };
+		CE9596431891CF77006D3952 /* TowersPosition.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9596361891CF77006D3952 /* TowersPosition.plist */; };
+		CE9596441891CF77006D3952 /* Waves.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9596371891CF77006D3952 /* Waves.plist */; };
+		CE95964A1891CFCC006D3952 /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE9596481891CFCC006D3952 /* Tower.cpp */; };
+		CE9596501891E05E006D3952 /* Waypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE95964E1891E05E006D3952 /* Waypoint.cpp */; };
+		CE9596531891E4F7006D3952 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE9596511891E4F7006D3952 /* Enemy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -873,6 +889,25 @@
 		CE95924C1891AB49006D3952 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		CE95924E1891AB49006D3952 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		CE95924F1891AB49006D3952 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		CE95962B1891CF77006D3952 /* 8bitDungeonLevel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 8bitDungeonLevel.mp3; path = Resources/8bitDungeonLevel.mp3; sourceTree = "<group>"; };
+		CE95962C1891CF77006D3952 /* Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bg.png; path = Resources/Bg.png; sourceTree = "<group>"; };
+		CE95962D1891CF77006D3952 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet.png; path = Resources/bullet.png; sourceTree = "<group>"; };
+		CE95962E1891CF77006D3952 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy.png; path = Resources/enemy.png; sourceTree = "<group>"; };
+		CE95962F1891CF77006D3952 /* font_red_14.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = font_red_14.fnt; path = Resources/font_red_14.fnt; sourceTree = "<group>"; };
+		CE9596301891CF77006D3952 /* font_red_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font_red_14.png; path = Resources/font_red_14.png; sourceTree = "<group>"; };
+		CE9596311891CF77006D3952 /* laser_shoot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = laser_shoot.wav; path = Resources/laser_shoot.wav; sourceTree = "<group>"; };
+		CE9596321891CF77006D3952 /* life_lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = life_lose.wav; path = Resources/life_lose.wav; sourceTree = "<group>"; };
+		CE9596331891CF77006D3952 /* open_spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = open_spot.png; path = Resources/open_spot.png; sourceTree = "<group>"; };
+		CE9596341891CF77006D3952 /* tower_place.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tower_place.wav; path = Resources/tower_place.wav; sourceTree = "<group>"; };
+		CE9596351891CF77006D3952 /* tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tower.png; path = Resources/tower.png; sourceTree = "<group>"; };
+		CE9596361891CF77006D3952 /* TowersPosition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TowersPosition.plist; path = Resources/TowersPosition.plist; sourceTree = "<group>"; };
+		CE9596371891CF77006D3952 /* Waves.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Waves.plist; path = Resources/Waves.plist; sourceTree = "<group>"; };
+		CE9596481891CFCC006D3952 /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tower.cpp; path = Classes/Tower.cpp; sourceTree = "<group>"; };
+		CE9596491891CFCC006D3952 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = Classes/Tower.h; sourceTree = "<group>"; };
+		CE95964E1891E05E006D3952 /* Waypoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Waypoint.cpp; path = Classes/Waypoint.cpp; sourceTree = "<group>"; };
+		CE95964F1891E05E006D3952 /* Waypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Waypoint.h; path = Classes/Waypoint.h; sourceTree = "<group>"; };
+		CE9596511891E4F7006D3952 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Enemy.cpp; path = Classes/Enemy.cpp; sourceTree = "<group>"; };
+		CE9596521891E4F7006D3952 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = Classes/Enemy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -944,6 +979,19 @@
 		CE958EBA1891AB46006D3952 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE95962B1891CF77006D3952 /* 8bitDungeonLevel.mp3 */,
+				CE95962C1891CF77006D3952 /* Bg.png */,
+				CE95962D1891CF77006D3952 /* bullet.png */,
+				CE95962E1891CF77006D3952 /* enemy.png */,
+				CE95962F1891CF77006D3952 /* font_red_14.fnt */,
+				CE9596301891CF77006D3952 /* font_red_14.png */,
+				CE9596311891CF77006D3952 /* laser_shoot.wav */,
+				CE9596321891CF77006D3952 /* life_lose.wav */,
+				CE9596331891CF77006D3952 /* open_spot.png */,
+				CE9596341891CF77006D3952 /* tower_place.wav */,
+				CE9596351891CF77006D3952 /* tower.png */,
+				CE9596361891CF77006D3952 /* TowersPosition.plist */,
+				CE9596371891CF77006D3952 /* Waves.plist */,
 				CE958EBB1891AB46006D3952 /* CloseNormal.png */,
 				CE958EBD1891AB46006D3952 /* CloseSelected.png */,
 				CE958EBF1891AB46006D3952 /* Default.png */,
@@ -2097,6 +2145,12 @@
 				CE95924C1891AB49006D3952 /* AppDelegate.cpp */,
 				CE95924E1891AB49006D3952 /* HelloWorldScene.h */,
 				CE95924F1891AB49006D3952 /* HelloWorldScene.cpp */,
+				CE9596481891CFCC006D3952 /* Tower.cpp */,
+				CE9596491891CFCC006D3952 /* Tower.h */,
+				CE95964E1891E05E006D3952 /* Waypoint.cpp */,
+				CE95964F1891E05E006D3952 /* Waypoint.h */,
+				CE9596511891E4F7006D3952 /* Enemy.cpp */,
+				CE9596521891E4F7006D3952 /* Enemy.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2151,17 +2205,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE95963C1891CF77006D3952 /* font_red_14.fnt in Resources */,
+				CE95963F1891CF77006D3952 /* life_lose.wav in Resources */,
+				CE9596391891CF77006D3952 /* Bg.png in Resources */,
+				CE95963E1891CF77006D3952 /* laser_shoot.wav in Resources */,
+				CE9596411891CF77006D3952 /* tower_place.wav in Resources */,
+				CE9596421891CF77006D3952 /* tower.png in Resources */,
 				CE958ECC1891AB46006D3952 /* Icon.png in Resources */,
 				CE958F6F1891AB47006D3952 /* ChangeLog in Resources */,
 				CE958EBC1891AB46006D3952 /* CloseNormal.png in Resources */,
 				CE958EC81891AB46006D3952 /* Icon-Small.png in Resources */,
+				CE95963A1891CF77006D3952 /* bullet.png in Resources */,
+				CE9596431891CF77006D3952 /* TowersPosition.plist in Resources */,
+				CE95963D1891CF77006D3952 /* font_red_14.png in Resources */,
 				CE958EC41891AB46006D3952 /* Icon-72.png in Resources */,
+				CE9596401891CF77006D3952 /* open_spot.png in Resources */,
+				CE9596441891CF77006D3952 /* Waves.plist in Resources */,
 				CE958EC21891AB46006D3952 /* HelloWorld.png in Resources */,
 				CE958EC61891AB46006D3952 /* Icon-Small-50.png in Resources */,
 				CE958ED01891AB46006D3952 /* iTunesArtwork in Resources */,
 				CE958ECA1891AB46006D3952 /* Icon-Small@2x.png in Resources */,
+				CE9596381891CF77006D3952 /* 8bitDungeonLevel.mp3 in Resources */,
 				CE958EC01891AB46006D3952 /* Default.png in Resources */,
 				CE958EBE1891AB46006D3952 /* CloseSelected.png in Resources */,
+				CE95963B1891CF77006D3952 /* enemy.png in Resources */,
 				CE958ECE1891AB46006D3952 /* Icon@2x.png in Resources */,
 				CE9590E31891AB48006D3952 /* project.pbxproj in Resources */,
 			);
@@ -2255,6 +2322,7 @@
 				CE9590A31891AB48006D3952 /* CCTextureAtlas.cpp in Sources */,
 				CE958F9D1891AB47006D3952 /* CCLayer.cpp in Sources */,
 				CE9592111891AB49006D3952 /* cpGrooveJoint.c in Sources */,
+				CE9596501891E05E006D3952 /* Waypoint.cpp in Sources */,
 				CE9591A71891AB49006D3952 /* AnimationState.cpp in Sources */,
 				CE958EF71891AB47006D3952 /* CCActionManager.cpp in Sources */,
 				CE9591391891AB48006D3952 /* CCComAttribute.cpp in Sources */,
@@ -2287,6 +2355,7 @@
 				CE9592311891AB49006D3952 /* cpSpace.c in Sources */,
 				CE95900D1891AB47006D3952 /* AccelerometerSimulation.m in Sources */,
 				CE958EEE1891AB47006D3952 /* CCActionGrid3D.cpp in Sources */,
+				CE95964A1891CFCC006D3952 /* Tower.cpp in Sources */,
 				CE9591211891AB48006D3952 /* CCNode+CCBRelativePositioning.cpp in Sources */,
 				CE9590991891AB48006D3952 /* CCIMEDispatcher.cpp in Sources */,
 				CE958F421891AB47006D3952 /* cocos2d.cpp in Sources */,
@@ -2328,6 +2397,7 @@
 				CE95915E1891AB48006D3952 /* CCControlStepper.cpp in Sources */,
 				CE95902C1891AB48006D3952 /* CCGLProgram.cpp in Sources */,
 				CE958F031891AB47006D3952 /* CCActionTween.cpp in Sources */,
+				CE9596531891E4F7006D3952 /* Enemy.cpp in Sources */,
 				CE95912B1891AB48006D3952 /* CCParticleSystemQuadLoader.cpp in Sources */,
 				CE958FB01891AB47006D3952 /* CCMenuItem.cpp in Sources */,
 				CE9592251891AB49006D3952 /* cpBBTree.c in Sources */,
