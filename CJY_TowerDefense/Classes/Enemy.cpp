@@ -131,11 +131,6 @@ void Enemy::draw(void){
     CCNode::draw();
 }
 
-void Enemy::getAttacked(){
-
-
-}
-
 
 void Enemy::getAttacked(Tower* attacker)
 {
